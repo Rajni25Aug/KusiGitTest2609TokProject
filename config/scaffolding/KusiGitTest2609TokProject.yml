@@ -12,6 +12,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: SIQACloudStreamsTests
+  gitServerName: KusiVCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Rajni25Aug
+  gitBranch: main
 services:
 - serviceName: project.kusigittest2609tok.integrations:Sum
   packages:
