@@ -8,31 +8,37 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: SIQAJDBCAdapterTests
+  version: "1.0"
   gitServerName: KusiVCName
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: SIQACloudStreamsTests
+  version: "1.0"
   gitServerName: KusiVCName
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: DADA_GlobalVariable1
+  version: "1.0"
   gitServerName: KusiVCName
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: SSL_JDBC_Test
+  version: "1.0"
   gitServerName: KusiVCName
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: JMS2waySSL
+  version: "1.0"
   gitServerName: KusiVCName
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: JMSTest
+  version: "1.0"
   gitServerName: KusiVCName
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Rajni25Aug
@@ -41,6 +47,24 @@ services:
 - serviceName: project.kusigittest2609tok.integrations:Sum
   packages:
   - name: KusiGitTest2609TokProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+  - name: SIQACloudStreamsTests
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -53,6 +77,24 @@ services:
 - serviceName: project.kusigittest2609tok.integrations:deepclonetest
   packages:
   - name: KusiGitTest2609TokProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+  - name: SIQACloudStreamsTests
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
@@ -74,15 +116,41 @@ services:
   packages:
   - name: KusiGitTest2609TokProject
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: publisher:publisher
   packages:
-  - name: KusiGitTest2609TokProject
+  - name: JMSTest
     version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
 - serviceName: jms2wayssl_publisher:jms2wayssl_publisher
   packages:
-  - name: KusiGitTest2609TokProject
+  - name: JMS2waySSL
     version: "1.0"
 - serviceName: SSL_JDBC_Test.services:insert_ssl
   packages:
-  - name: KusiGitTest2609TokProject
+  - name: SSL_JDBC_Test
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
