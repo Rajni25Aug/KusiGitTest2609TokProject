@@ -7,3 +7,57 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: SIQAJDBCAdapterTests
+  gitServerName: KusiVCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Rajni25Aug
+  gitBranch: main
+services:
+- serviceName: project.kusigittest2609tok.integrations:Sum
+  packages:
+  - name: KusiGitTest2609TokProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
+- serviceName: project.kusigittest2609tok.integrations:deepclonetest
+  packages:
+  - name: KusiGitTest2609TokProject
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
+- serviceName: project.kusigittest2609tok.integrations:testjms
+  packages:
+  - name: KusiGitTest2609TokProject
+    version: "1.0"
+- serviceName: publisher:publisher
+  packages:
+  - name: KusiGitTest2609TokProject
+    version: "1.0"
+- serviceName: jms2wayssl_publisher:jms2wayssl_publisher
+  packages:
+  - name: KusiGitTest2609TokProject
+    version: "1.0"
+- serviceName: SSL_JDBC_Test.services:insert_ssl
+  packages:
+  - name: KusiGitTest2609TokProject
+    version: "1.0"
