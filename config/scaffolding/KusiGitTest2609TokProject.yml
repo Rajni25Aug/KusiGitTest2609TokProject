@@ -32,6 +32,11 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: JMSTest
+  gitServerName: KusiVCName
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: Rajni25Aug
+  gitBranch: main
 services:
 - serviceName: project.kusigittest2609tok.integrations:Sum
   packages:
